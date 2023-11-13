@@ -1,4 +1,4 @@
-
+package cs203lab12;
 public class EncryptionTester {
 	
 	public static void main(String[] args) throws Exception {
@@ -7,7 +7,7 @@ public class EncryptionTester {
         String inputFilePath = "src/encryptMe.txt";
         String outputFilePath = "src/newEncrypted.txt";
 		
-        int shift = 1; // Says how much you would like to shift
+        int shift = 4; // Says how much you would like to shift
 
         Encrypter enc = new Encrypter(shift);
 
